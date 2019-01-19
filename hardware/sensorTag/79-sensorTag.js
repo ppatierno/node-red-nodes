@@ -1,7 +1,7 @@
 
 module.exports = function(RED) {
     "use strict";
-    var SensorTag = require("sensortag");
+    var SensorTag = require("@ppatierno/sensortag");
 
     function SensorTagNode(n) {
         RED.nodes.createNode(this,n);
